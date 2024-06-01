@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #cde5ff;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: 50px;
+    width: 500px;
+    margin: auto;
+
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+input.update {
+    background-color: #0091ff;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input.update:hover {
+    background-color: #003270;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+
+
+header {
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-color: #0078f8;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.458);
+}
+
+nav {
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border: 2px solid;
+    border-color: transparent;
+    font-size: 12pt;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    height: 25px;
+    padding: 0px 50px 50px 50px;
+    margin: auto;
+}
