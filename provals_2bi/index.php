@@ -46,7 +46,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                <span>ou use sua senha de e-mail</span>
+                <span>ou use sua senha e e-mail</span>
                 <input type="email"  name="email" placeholder="Email">
                 <input type="password" name="senha" placeholder="Senha">
                 <a href="#">Esqueceu sua senha?</a>
