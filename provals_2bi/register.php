@@ -12,9 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bind_param("sssi", $nome, $email, $senha, $perfil_id);
 
     if ($stmt->execute()) {
-        echo "Registro concluído com sucesso.";
+        echo "<script>alert('Conta criada com sucesso');</script>";
     } else {
-        echo "Erro ao registrar: " . $stmt->error;
+        echo "<script>alert('Erro ao inscrever-se');</script>" . $stmt->error;
     }
 
     $stmt->close();
