@@ -26,10 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 header("Location: colaborador.php");
             }
         } else {
-            echo "Senha incorreta.";
+            echo "<script>alert('Senha incorreta');</script>";
         }
     } else {
-        echo "Usuário não encontrado.";
+        echo "<script>alert('Usuário não encontrado');</script>";
     }
 
     $stmt->close();
