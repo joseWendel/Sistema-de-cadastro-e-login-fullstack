@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $usuario = 'root';
-$senha = '';
+$senha = 'admin06';
 $bdnome = 'sistema_login';
 
 $conn = new mysqli($host, $usuario, $senha, $bdnome);
